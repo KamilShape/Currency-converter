@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Conventer</title>
+    <link href="https://fonts.googleapis.com/css?family=Inter:400,700&display=swap&subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="currency.css">
+</head>
+<section class='wrapper'>
+    <form action="" class='conventer'>
+        <section class='currency_have-wrapper'>
+            <label for="currency_have">Currency|Have</label></br>
+            <select name="currency_have" id="currency_have">
+                <option value=PLN>Polish zloty - PLN</option>
+                <option value=EUR>Euro - EUR</option>
+                <option value=USD>USD - US Dollar</option>
+                <option value=CAD>CAD - Canadian Dollar</option>
+                <option value=GBP>GBP - British Pound</option>
+            </select></br>
+        </section>
+        <section class='currency_want-wrapper'>
+            <label for="currency_want">Currency|Want</label></br>
+            <select name="currency_want" id="currency_want">
+                <option value=PLN>Polish zloty - PLN</option>
+                <option value=EUR>Euro - EUR</option>
+                <option value=USD>USD - US Dollar</option>
+                <option value=CAD>CAD - Canadian Dollar</option>
+                <option value=GBP>GBP - British Pound</option>
+            </select></br>
+        </section>
+        <section class='amount_wrapper'>
+            <label for="amount">Amount</label></br>
+            <input type="number" id="amount"></br>
+        </section>
+        <button id='convert_button'>Convert</button>
+        <div id='result'></div>
+    </form>
+
+
+</section>
+
+<body>
+
+</body>
+<script src='currency.js'></script>
+
+</html>
